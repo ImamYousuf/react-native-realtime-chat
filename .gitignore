@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Dependencies
+node_modules/
+
+# React Native
+.bundle/
+ios/Pods/
+android/.gradle/
+android/app/build/
+android/build/
+
+# Metro / logs
+.metro-health-check*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+
+# Build output
+dist/
+build/
+coverage/
